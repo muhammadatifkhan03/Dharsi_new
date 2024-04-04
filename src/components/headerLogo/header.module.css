@@ -1,0 +1,26 @@
+.container {
+  /* width: 40px; */
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+.imageContainer:hover {
+  scale: 103%;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+}
