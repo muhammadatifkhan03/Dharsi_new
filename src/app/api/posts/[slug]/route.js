@@ -4,7 +4,6 @@ import { NextResponse } from 'next/server';
 // GET SINGLE POST
 export const GET = async (req, { params }) => {
   const { slug } = params;
-  console.log('catSlugTitle', slug);
   try {
     const post = await prisma.post.update({
       where: { slug },
